@@ -43,7 +43,7 @@ print("-------------------------")
 
 prediction = linear.predict(x_test)
 for x in range (len(prediction)):
-    print(prediction[x],x_test[x], y_train[x])
+    print(prediction[x],x_test[x], y_test[x])
 
 
 #Plotting model
